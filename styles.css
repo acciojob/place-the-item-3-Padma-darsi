@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next line if needed */
+    justify-content: space-between; /* Evenly spaces items in a row */
+    gap: 10px; /* Optional: adds some spacing between items */
+}
+
+.item {
+    flex: 1 1 200px; /* Allows items to grow and shrink, with a base width of 200px */
+    /* Optional: You can add additional styling for items here */
+    box-sizing: border-box; /* Ensures padding and borders are included in the total width/height */
+}
